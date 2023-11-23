@@ -1,0 +1,7 @@
+fd = open("para.txt",'r')
+read_data = fd.read(10)
+#print(read_data)
+read_data1 = fd.readline()
+print(read_data1)
+read_data2 = fd.readline()
+print(read_data2)
